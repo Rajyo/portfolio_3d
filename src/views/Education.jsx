@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { educations } from "../utils/constants";
-import SectionWrapper from "../components/SectionWrapper";
 import { ThemeContext } from "../themeProvider";
 
 
@@ -40,13 +39,7 @@ const EducationCard = ({ education }) => {
                         className="text-secondary text-[16px] font-semibold"
                         style={{ margin: 0 }}
                     >
-                        <span style={{ color: clr }}>Degree : </span>{education.degree}
-                    </h5>
-                    <h5
-                        className="text-secondary text-[16px] font-semibold"
-                        style={{ margin: "0rem 0.5rem" }}
-                    >
-                        ({education.work})
+                        <span style={{ color: clr }}>Degree : </span>{education.degree} ({education.work})
                     </h5>
                 </div>
             </div>
@@ -74,18 +67,18 @@ const Education = () => {
     const cl = darkMode ? "black" : "white"
     return (
         <>
-            <div id="about" style={{ margin: "-5.5rem -12rem -4rem -12rem", backgroundColor: bg, color: cl, }}>
+            <div id="about" className="w-full sm:mx-0" style={{ margin: "-2.5rem 0rem -4rem 0rem", backgroundColor: bg, color: cl,}}>
                 <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
                     <h2
                         className={
                             darkMode
-                                ? "text-5xl font-bold px-4 md:px-0 text-center"
-                                : "text-5xl font-bold px-4 md:px-0 text-center text-white"
+                                ? "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center"
+                                : "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center text-white"
                         }
                     >
                         Education
                     </h2>
-                    <div className="mt-20 flex flex-col xl:mx-0 sm:mt-0 py-0 mx-28 lg:mt-0 px-12 md:mt-0 pt-12 pb-12">
+                    <div className="mt-2 flex flex-col xl:mx-0 sm:mt-0 py-0 lg:mt-0 md:mt-0 pt-12 pb-12">
                         <VerticalTimeline>
                             {educations.map((education, index) => (
                                 <EducationCard key={index} education={education} />
@@ -98,7 +91,7 @@ const Education = () => {
     );
 };
 
-export default SectionWrapper(Education, "education");
+export default Education;
 
 // import React, { useContext } from "react";
 // import {

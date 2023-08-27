@@ -8,6 +8,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
 import Education from "./views/Education";
 
+
 function App() {
   const [loading, setLoading] = useState(true)
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
             <Education />
             <Projects />
             <Contact />
+      
           </div>
 
         ) : (

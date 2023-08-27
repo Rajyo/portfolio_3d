@@ -75,7 +75,7 @@ const ThreeCube = () => {
     <div
       className="three"
       ref={cubeRef}
-      style={{ width: "30rem", height: "30rem", position:"absolute"}}
+      style={{ position:"absolute",}}
     ></div>
   </>
 );

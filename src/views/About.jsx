@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { contactLinks, techStack, frontend, backend, database, deployment, tools, toolsAndTechnologies} from "../utils/constants";
+import { contactLinks, techStack, frontend, backend, database, deployment, tools, toolsAndTechnologies } from "../utils/constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 
@@ -11,20 +11,20 @@ const About = () => {
 
 
   return (
-    <div id="about" style={{ margin: "-1rem", background:bg}}>
+    <div id="about" style={{ background: bg,}} >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
         <h2
           className={
             darkMode
-              ? "text-5xl font-bold px-4 md:px-0 text-center"
-              : "text-5xl font-bold px-4 md:px-0 text-center text-white"
+              ? "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center"
+              : "mt-[15rem] sm:mt-0 sm:text-5xl text-4xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
           About Me
         </h2>
         <div>
-          <motion.div className="flex" style={{ marginTop: "1rem" }}>
-            <motion.div className="flex flex-col flex-wrap justify-between " style={{ width: "25%",}}>
+          <motion.div className="flex flex-col-reverse md:flex md:flex-row" style={{ marginTop: "1rem" }}>
+            <motion.div className="flex md:flex-col flex-wrap justify-between">
               {contactLinks.map((el, index) => (
                 <motion.div
                   initial="hidden"
@@ -48,23 +48,15 @@ const About = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img alt="logo" src={el.url} className="w-8 h-8 ml-2"/>
-                    <p style={{marginLeft:"0.75rem", fontSize:"1.1rem"}}>{el.name}</p>
+                    <img alt="logo" src={el.url} className="w-8 h-8 ml-2" />
+                    <p style={{ marginLeft: "0.75rem", fontSize: "1.1rem" }}>{el.name}</p>
                   </a>
                 </motion.div>
               ))}
             </motion.div>
-            <motion.div
-              className={
-                darkMode
-                  ? "mt-4 text-xl text-justify"
-                  : "mt-4 text-xl text-justify text-white"
-              }
-              style={{ width: "75%", margin: "1rem 1rem" }}
-            >
+            <motion.div className={darkMode ? "mt-4 text-xl text-justify" : "mt-4 text-xl text-justify text-white"} style={{ margin: "1rem 1rem" }}>
               I'm a self-taught web developer, a tech enthusiast and a product builder with a knack for tackling tough technical challenges. As a jack-of-all-trades, I can learn any technology quickly and deliver high-quality results with an eye for detail and a focus on user experience. I take pride in owning my work and always striving for excellence. When I'm not exploring the latest tech trends, you'll find me indulging in my love for music or seeking out new and creative ways to solve problems.
             </motion.div>
-
           </motion.div>
 
 
@@ -72,29 +64,14 @@ const About = () => {
             <h2
               className={
                 darkMode
-                  ? "text-5xl font-bold px-4 md:px-0 text-center"
-                  : "text-5xl font-bold px-4 md:px-0 text-center text-white"
+                  ? "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center"
+                  : "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center text-white"
               }
             >
               Tools and Technologies
             </h2>
-            {/* <p
-              className={
-                darkMode
-                  ? "mt-8 text-xl text-justify"
-                  : "mt-8 text-xl text-justify text-white"
-              }
-            >
-              Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
-              websites for smartphones, tablets, and desktops.
-            </p> */}
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 justify-between">
-            {/* {toolsAndTechnologies.map((tech, index)=>(
-
-            ))} */}
-
             {techStack.map((el, index) => (
               <motion.div
                 initial="hidden"
@@ -112,8 +89,8 @@ const About = () => {
                 className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
               >
                 <div className="flex cursor-pointer hover:scale-105 items-center">
-                <img alt="" src={el.link} className="w-12 h-10" />
-                <h4 className="text-md ml-4">{el.name}</h4>
+                  <img alt="" src={el.link} className="w-12 h-10" />
+                  <h4 className="text-md ml-4">{el.name}</h4>
                 </div>
               </motion.div>
             ))}

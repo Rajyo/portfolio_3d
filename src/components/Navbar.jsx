@@ -8,7 +8,7 @@ const Navbar = () => {
   const theme = useContext(ThemeContext);
   const [toggle, setToggle] = useState(false);
   const darkMode = theme.state.darkMode;
-  const bg = darkMode ? "#c4ffc9" : "#383838"
+  const bg = darkMode ? "#8ac78f" : "black"
   const links = [
     {
       name: "Home",
@@ -77,8 +77,8 @@ const Navbar = () => {
                     smooth={true}
                     className={
                       darkMode
-                        ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
-                        : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                        ? "block py-2 px-3 text-black hover:bg-green-500 hover:text-white rounded-md"
+                        : "block py-2 px-3 text-white hover:bg-green-100 hover:text-black rounded-md"
                     }
                   >
                     {el.name}
@@ -140,7 +140,7 @@ const Navbar = () => {
             exit={{ x: 200, transition: { type: "spring" } }}
             className={
               darkMode
-                ? "bg-white py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
+                ? "bg-green-200 py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
                 : "bg-black py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
             }
           >
@@ -148,11 +148,10 @@ const Navbar = () => {
               {links.map((el) => (
                 <Link
                   to={el.route}
-                  activeClass={"text-white bg-blue-500"}
                   className={
                     darkMode
-                      ? "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
-                      : "hover:bg-blue-500 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
+                      ? "hover:bg-green-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
+                      : "hover:bg-green-100 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-black"
                   }
                   spy={true}
                   smooth={true}

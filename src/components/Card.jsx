@@ -11,7 +11,7 @@ const Card = ({ proj }) => {
   const bg = darkMode ? "#e9939366" : "#8c845f"
   return (
     <>
-      <div className="main" style={{ backgroundColor: bg, display: "flex", flexDirection: "column", padding: "1rem", margin: "1rem 3rem 2rem 3rem", border: "1px solid whitesmoke", width: "80%", borderRadius:"5%" }}>
+      <div className="main" style={{ backgroundColor: bg, display: "flex", flexDirection: "column", padding: "1rem", margin: "1rem 3rem 2rem 3rem", border: "1px solid whitesmoke", width: "80%", borderRadius:"1rem" }}>
 
         <div className="head" style={{ display: "flex" }}>
 
@@ -23,7 +23,7 @@ const Card = ({ proj }) => {
             <div className="header-info-name" style={{ marginBottom: "0.5rem" }}>
               <h3 style={{ fontSize: "1.5rem" }}><b>{proj.title}</b></h3>
             </div>
-            <div className="header-info-public" style={{ display: "flex" }}>
+            <div className="header-info-public" style={{ display: "flex", }}>
               <a href={proj.repo} target="_blank" rel="noreferrer">
                 <div className="live" style={{ display: "flex", margin: "0rem 2rem 0rem 1rem", alignItems: "center" }}>
                   <img src={github} alt="live" style={{ width: "1rem", height: "1rem", marginRight: "0.25rem",}} />
