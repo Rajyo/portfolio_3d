@@ -20,27 +20,27 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-    const onSubmit = async (data) => {
-      const { name, email, message } = data;
-      try {
-        const templateParams = {
-          user_name: name,
-          user_email: email,
-          user_message: message,
-        };
-  
-        await emailjs.send(
-          process.env.EMAILJS_SERVICE,
-          process.env.EMAILJS_TEMPLATE,
-          templateParams,
-          process.env.EMAILJS_SECRET,
-        );
-  
-        reset();
-      } catch (e) {
-        console.log(e);
-      }
-    };
+  const onSubmit = async (data) => {
+    const { name, email, message } = data;
+    try {
+      const templateParams = {
+        user_name: name,
+        user_email: email,
+        user_message: message,
+      };
+
+      await emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE,
+        process.env.REACT_APP_EMAILJS_TEMPLATE,
+        templateParams,
+        process.env.REACT_APP_EMAILJS_SECRET,
+      );
+
+      reset();
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   return (
     <div
@@ -50,20 +50,20 @@ const Contact = () => {
           ? " md:h-screen"
           : " text-white md:h-screen"
       }
-      style={{ backgroundColor:bg, color:cl, marginTop:"4rem",}}
+      style={{ backgroundColor: bg, color: cl, marginTop: "4rem", }}
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4" >
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
           Contact
         </h2>
         <div className="flex">
-          <div className="flex justify-between items-center md:items-stretch flex-col md:flex-row pb-24" style={{ width:"50%", marginTop:"5rem"}}>
+          <div className="flex justify-between items-center md:items-stretch flex-col md:flex-row pb-24" style={{ width: "50%", marginTop: "5rem" }}>
             <div className="w-full md:pr-8">
               <form
                 id="contact-form"
                 onSubmit={handleSubmit(onSubmit)}
                 noValidate
-                style={{ backgroundColor:innerbg, padding:"1rem 2rem 2rem 2rem", borderRadius:"1rem",}}
+                style={{ backgroundColor: innerbg, padding: "1rem 2rem 2rem 2rem", borderRadius: "1rem", }}
               >
 
                 <div class="my-6">
@@ -83,22 +83,22 @@ const Contact = () => {
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Enter your name"
                     {...register("name", {
-                        required: {
-                          value: true,
-                          message: "Please enter your name",
-                        },
-                        maxLength: {
-                          value: 30,
-                          message: "Please use 30 characters or less",
-                        },
-                      })}
+                      required: {
+                        value: true,
+                        message: "Please enter your name",
+                      },
+                      maxLength: {
+                        value: 30,
+                        message: "Please use 30 characters or less",
+                      },
+                    })}
                     required
                   />
                   {errors.name && (
-                      <span className="errorMessage">
-                        {errors.name.message}
-                      </span>
-                    )}
+                    <span className="errorMessage">
+                      {errors.name.message}
+                    </span>
+                  )}
                 </div>
 
                 <div className="mb-6">
@@ -118,17 +118,17 @@ const Contact = () => {
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Enter your email"
                     {...register("email", {
-                        required: true,
-                        pattern:
-                          /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-                      })}
+                      required: true,
+                      pattern:
+                        /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                    })}
                     required
                   />
                   {errors.email && (
-                      <span className="errorMessage">
-                        Please enter a valid email address
-                      </span>
-                    )}
+                    <span className="errorMessage">
+                      Please enter a valid email address
+                    </span>
+                  )}
                 </div>
 
                 <div class="mb-6">
@@ -160,10 +160,10 @@ const Contact = () => {
                     required
                   />
                   {errors.subject && (
-                      <span className="errorMessage">
-                        {errors.subject.message}
-                      </span>
-                    )}
+                    <span className="errorMessage">
+                      {errors.subject.message}
+                    </span>
+                  )}
                 </div>
 
                 <div className="mb-6">
@@ -183,15 +183,15 @@ const Contact = () => {
                     class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Enter your message"
                     {...register("message", {
-                        required: true,
-                      })}
+                      required: true,
+                    })}
                     required
                   />
                   {errors.message && (
-                      <span className="errorMessage">
-                        Please enter a message
-                      </span>
-                    )}
+                    <span className="errorMessage">
+                      Please enter a message
+                    </span>
+                  )}
                 </div>
 
                 <div className="flex justify-between ">
@@ -203,8 +203,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div style={{ width:"50%", marginTop:"-2rem",}}>
-            <EarthCanvas/>
+          <div style={{ width: "50%", marginTop: "-2rem", }}>
+            <EarthCanvas />
           </div>
         </div>
       </div>
