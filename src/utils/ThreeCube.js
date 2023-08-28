@@ -13,7 +13,6 @@ const ThreeCube = () => {
  const cubeRef = useRef(null);
 
  useEffect(() => {
-  console.log("ThreeCube")
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 1000);
   const renderer = new THREE.WebGLRenderer();
@@ -67,7 +66,7 @@ const ThreeCube = () => {
     <div
       className="three"
       ref={cubeRef}
-      style={{ position:"absolute"}}
+      style={{position:"absolute"}}
     ></div>
   </>
 );

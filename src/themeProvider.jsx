@@ -1,7 +1,15 @@
 import React, { createContext, useReducer } from "react";
 export const ThemeContext = createContext();
 
-const initialState = { darkMode: true };
+const toggle1 = localStorage.getItem('toggle')
+if(toggle1 === null){
+  localStorage.setItem('toggle', JSON.stringify(true))
+}
+const toggle2 = localStorage.getItem('toggle')
+var darkmode = toggle2.match('true')
+
+
+const initialState = { darkMode: darkmode };
 
 const themeReducer = (state, action) => {
   switch (action.type) {
@@ -18,8 +26,6 @@ const themeReducer = (state, action) => {
 
 export function ThemeProvider(props) {
   const [state, dispatch] = useReducer(themeReducer, initialState);
-  // const toggle1 = localStorage.getItem('toggle')
-  // console.log(toggle1)
 
   return (
     <ThemeContext.Provider

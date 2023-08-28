@@ -9,7 +9,7 @@ const Home = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div id="home">
+    <div id="home" >
       {darkMode ? <Light /> : <Dark />}
       <Banner />
     </div>

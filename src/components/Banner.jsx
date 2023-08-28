@@ -16,6 +16,7 @@ const Banner = () => {
         <div>
           <main
             className="mx-12 max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
+            style={{position:"relative", width:"45%"}}
           >
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
