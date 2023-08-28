@@ -12,7 +12,7 @@ const Navbar = () => {
   const links = [
     {
       name: "Home",
-      route: "/",
+      route: "home",
     },
     {
       name: "About",

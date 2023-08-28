@@ -11,7 +11,7 @@ const EducationCard = ({ education }) => {
     const bg = darkMode ? "#e9939366" : "#8c845f"
     const cl = darkMode ? "black" : "white"
     const clr = darkMode ? "grey" : "#212121eb"
-    const bRight = darkMode ? "0.5rem solid #e9d193" : "0.5rem solid #8c845f"
+    const bRight = darkMode ? "0.5rem solid #e9939366" : "0.5rem solid #8c845f"
     return (
         <VerticalTimelineElement
             contentStyle={{
@@ -67,7 +67,7 @@ const Education = () => {
     const cl = darkMode ? "black" : "white"
     return (
         <>
-            <div id="about" className="w-full sm:mx-0" style={{ margin: "-2.5rem 0rem -4rem 0rem", backgroundColor: bg, color: cl,}}>
+            <div id="education" className="w-full sm:mx-0" style={{ margin: "-2.5rem 0rem -4rem 0rem", backgroundColor: bg, color: cl,}}>
                 <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
                     <h2
                         className={

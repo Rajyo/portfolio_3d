@@ -15,24 +15,25 @@ const Card = ({ proj }) => {
 
         <div className="head" style={{ display: "flex" }}>
 
-          <div className="image" style={{ width: "5rem", justifySelf: "flex-start", padding: "0.65rem", }}>
+          <div className="image" style={{ width: "5rem", justifySelf: "flex-start", padding: "0.65rem", border:"1px solid grey",}}>
             <img src={proj.image} alt="title" />
           </div>
 
           <div className="header-info" style={{ display: "flex", flexDirection: "column", marginLeft: "1rem" }}>
-            <div className="header-info-name" style={{ marginBottom: "0.5rem" }}>
+            <div className="header-info-name" style={{ marginBottom: "0.25rem" }}>
               <h3 style={{ fontSize: "1.5rem" }}><b>{proj.title}</b></h3>
             </div>
-            <div className="header-info-public" style={{ display: "flex", }}>
-              <a href={proj.repo} target="_blank" rel="noreferrer">
-                <div className="live" style={{ display: "flex", margin: "0rem 2rem 0rem 1rem", alignItems: "center" }}>
+            <div className="header-info-public" style={{ display: "flex", flexWrap:"wrap-reverse",}}>
+              <a href={proj.repo} target="_blank" rel="noreferrer" style={{padding:"0.25rem 0rem"}}>
+                <div className="live" style={{ display: "flex",flexWrap:"wrap", alignItems: "center" }}>
                   <img src={github} alt="live" style={{ width: "1rem", height: "1rem", marginRight: "0.25rem",}} />
                   <h5>Check Repo</h5>
                 </div>
               </a>
+              <div style={{color:"transparent", }}>space</div>
               {proj.demo &&
-              <a href={proj.demo} target="_blank" rel="noreferrer">
-                <div className="repo" style={{ display: "flex", alignItems: "center" }}>
+              <a href={proj.demo} target="_blank" rel="noreferrer" style={{padding:"0.25rem 0rem"}}>
+                <div className="repo" style={{ display: "flex", flexWrap:"wrap", alignItems: "center",}}>
                   <img src={youtube} alt="repo" style={{ width: "1rem", height: "1rem", marginRight: "0.25rem",}} />
                   <h5>Live Demo</h5>
                 </div>

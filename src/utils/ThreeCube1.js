@@ -8,7 +8,7 @@ import space2 from "../assets/yellow_wave_abstract-1280x800.jpg";
 import moon2 from "../assets/315347.jpg";
 
 
-const ThreeCube = () => {
+const ThreeCube1 = () => {
  const cubeRef = useRef(null);
  
  useEffect(() => {
@@ -80,5 +80,5 @@ const ThreeCube = () => {
   </>
 );
 }; 
-export default ThreeCube;
+export default ThreeCube1;
 

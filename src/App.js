@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import Contact from "./views/Contact";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
-import Home from './views/Home'
 import Projects from "./views/Projects";
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
 import Education from "./views/Education";
+import Home from "./views/Home";
 
 
 function App() {

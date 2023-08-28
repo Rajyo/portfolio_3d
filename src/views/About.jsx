@@ -12,12 +12,12 @@ const About = () => {
 
   return (
     <div id="about" style={{ background: bg,}} >
-      <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
+      <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-14 pb-12">
         <h2
           className={
             darkMode
               ? "text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center"
-              : "mt-[15rem] sm:mt-0 sm:text-5xl text-4xl font-bold px-4 md:px-0 text-center text-white"
+              : "sm:mt-0 sm:text-5xl text-4xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
           About Me
@@ -54,7 +54,7 @@ const About = () => {
                 </motion.div>
               ))}
             </motion.div>
-            <motion.div className={darkMode ? "mt-4 text-xl text-justify" : "mt-4 text-xl text-justify text-white"} style={{ margin: "1rem 1rem" }}>
+            <motion.div className={darkMode ? "mt-4 text-lg md:text-xl text-justify" : "mt-4 text-lg md:text-xl text-justify text-white"} style={{ margin: "1rem 1rem" }}>
               I'm a self-taught web developer, a tech enthusiast and a product builder with a knack for tackling tough technical challenges. As a jack-of-all-trades, I can learn any technology quickly and deliver high-quality results with an eye for detail and a focus on user experience. I take pride in owning my work and always striving for excellence. When I'm not exploring the latest tech trends, you'll find me indulging in my love for music or seeking out new and creative ways to solve problems.
             </motion.div>
           </motion.div>

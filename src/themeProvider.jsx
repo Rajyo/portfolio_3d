@@ -18,8 +18,8 @@ const themeReducer = (state, action) => {
 
 export function ThemeProvider(props) {
   const [state, dispatch] = useReducer(themeReducer, initialState);
-  const toggle1 = localStorage.getItem('toggle')
-  console.log(toggle1)
+  // const toggle1 = localStorage.getItem('toggle')
+  // console.log(toggle1)
 
   return (
     <ThemeContext.Provider

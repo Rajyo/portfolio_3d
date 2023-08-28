@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full xl:px-[6rem]" style={{ backgroundColor: bg, color: cl, margin:"2rem 1rem 0rem 0rem"}}>
+    <div id="contact" className="w-full xl:px-[6rem]" style={{ backgroundColor: bg, color: cl, margin:"2rem 1rem 0rem 0rem"}}>
       <h3 className="text-4xl sm:text-5xl font-bold px-4 mb-10 md:px-0 text-center z-0">Contact</h3>
       <div
         className={`xl:mt-6 flex xl:flex-row flex-col-reverse overflow-hidden`}
