@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.eaa35ea3.css",
-    "main.js": "/static/js/main.f7c66278.js",
+    "main.css": "/static/css/main.14efe9d9.css",
+    "main.js": "/static/js/main.4cd56fad.js",
     "static/js/915.7a8c199c.chunk.js": "/static/js/915.7a8c199c.chunk.js",
     "static/media/black.jpg": "/static/media/black.c44ed04c57064dd1b4d5.jpg",
     "static/media/1pexels-adrien-olichon-2538107.jpg": "/static/media/1pexels-adrien-olichon-2538107.4e63b9e2f372bc8734db.jpg",
     "static/media/normal.jpg": "/static/media/normal.573c0a93c594c41b13ab.jpg",
     "static/media/pexels-pixabay-87611.jpg": "/static/media/pexels-pixabay-87611.3da152027de188763ef2.jpg",
-    "static/media/R.jpg": "/static/media/R.eaa478cd9f8635723480.jpg",
+    "static/media/R.jpg": "/static/media/R.469e83b0032403d54ac5.jpg",
     "static/media/moon2.png": "/static/media/moon2.68a8fc1d0b612ecf7f49.png",
     "static/media/315347.jpg": "/static/media/315347.a0eea06d704f8fd01df1.jpg",
     "static/media/moon.jpg": "/static/media/moon.a2edaf8548e78714814b.jpg",
@@ -57,12 +57,12 @@
     "static/media/material-ui.svg": "/static/media/material-ui.29d71b029152a33c2696d4b945479656.svg",
     "static/media/npm.svg": "/static/media/npm.bf4e43f09d9ca32c3a9d5a19fd3be75f.svg",
     "static/media/vercel.svg": "/static/media/vercel.b2380b2e46924dd7d4c233c653763a84.svg",
-    "main.eaa35ea3.css.map": "/static/css/main.eaa35ea3.css.map",
-    "main.f7c66278.js.map": "/static/js/main.f7c66278.js.map",
+    "main.14efe9d9.css.map": "/static/css/main.14efe9d9.css.map",
+    "main.4cd56fad.js.map": "/static/js/main.4cd56fad.js.map",
     "915.7a8c199c.chunk.js.map": "/static/js/915.7a8c199c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaa35ea3.css",
-    "static/js/main.f7c66278.js"
+    "static/css/main.14efe9d9.css",
+    "static/js/main.4cd56fad.js"
   ]
 }
