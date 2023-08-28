@@ -11,7 +11,7 @@ const About = () => {
 
 
   return (
-    <div id="about" style={{ background: bg,}} >
+    <div id="about" style={{ background: bg,}}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-14 pb-12">
         <h2
           className={

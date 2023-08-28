@@ -40,7 +40,7 @@ const ThreeCube = () => {
       lightMapIntensity: 0.75
     }),
   )
-  torus.position.set(8,0,0)
+  torus.position.set(9,0,0)
   scene.add(torus);
   
   const pointLight = new THREE.PointLight(0xffffff);

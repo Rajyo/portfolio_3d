@@ -18,7 +18,7 @@ const Banner = () => {
             className="mx-12 max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
             style={{position:"absolute", width:"45%",}}
           >
-            <div className="sm:text-center lg:text-left">
+            <div className="sm:text-center lg:text-left mt-[-4rem]">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <motion.span
                   className={darkMode ? "block text-black" : " text-white"}
@@ -42,14 +42,10 @@ const Banner = () => {
                 </div>
 
               </h1>
-              <div className="mt-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                  <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+              <div className="mt-10 sm:mt-8 sm:flex sm:justify-center cursor-pointer w-18 px-6 py-2 text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-2 md:text-lg sm:ml-20 md:ml-38 lg:ml-0" style={{position:"absolute"}}>
                     <a href="https://tinyurl.com/resume1926" target="_blank" rel="noreferrer">Resume</a>
-                  </Link>
                 </div>
               </div>
-            </div>
           </main>
         </div>
       </div>

@@ -38,7 +38,7 @@ const ThreeCube1 = () => {
       // lightMap: normalTexture,
     }),
   )
-  torus.position.set(8,0,0)
+  torus.position.set(9,0,0)
   scene.add(torus);
 
   const moonTexture1 = new THREE.TextureLoader().load(`${moon2}`);
@@ -46,7 +46,7 @@ const ThreeCube1 = () => {
     new THREE.TorusKnotGeometry( 5, 0.5, 70, 10, 15, 0.1),    
     new THREE.MeshStandardMaterial({ map: moonTexture1,} ),
   )
-  torus1.position.set(8,0,0)
+  torus1.position.set(9.2,0,0)
   scene.add(torus1);
   
   const pointLight = new THREE.PointLight(0xF2B90D);
@@ -91,5 +91,5 @@ const ThreeCube1 = () => {
   </>
 );
 }; 
-export default ThreeCube1;
+export default React.memo(ThreeCube1);
 

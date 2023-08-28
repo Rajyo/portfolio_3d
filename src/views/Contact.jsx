@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import { slideIn } from "../utils/motion.js";
 
+
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -42,6 +43,7 @@ const Contact = () => {
     }
   };
 
+
   return (
     <div id="contact" className="w-full xl:px-[6rem]" style={{ backgroundColor: bg, color: cl, margin:"2rem 1rem 0rem 0rem"}}>
       <h3 className="text-4xl sm:text-5xl font-bold px-4 mb-10 md:px-0 text-center z-0">Contact</h3>
@@ -57,6 +59,7 @@ const Contact = () => {
             onSubmit={handleSubmit(onSubmit)}
             noValidate
             style={{ backgroundColor: innerbg, padding: "1rem 2rem 2rem 2rem", borderRadius: "1rem", }}
+            className="xl:w-[500px]"
           >
 
             <div class="my-6">
@@ -198,7 +201,7 @@ const Contact = () => {
 
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] lg:h-[750px]"
+          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] lg:h-[750px] xl:w-[400px] xl:mt-[-3rem]"
         >
           <EarthCanvas />
         </motion.div>
