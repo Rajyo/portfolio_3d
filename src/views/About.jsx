@@ -24,7 +24,7 @@ const About = () => {
         </h2>
         <div>
           <motion.div className="flex flex-col-reverse md:flex md:flex-row" style={{ marginTop: "1rem" }}>
-            <motion.div className="flex md:flex-col flex-wrap justify-between">
+            <motion.div className="flex md:flex-col flex-wrap justify-between md:mr-10">
               {contactLinks.map((el, index) => (
                 <motion.div
                   initial="hidden"
@@ -86,11 +86,11 @@ const About = () => {
                   },
                   hidden: { opacity: 1, y: 80 },
                 }}
-                className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+                className="py-2 px-1 md:py-2 md:px-4 bg-gray-50 md:m-4 mx-1 md:mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
               >
                 <div className="flex cursor-pointer hover:scale-105 items-center">
-                  <img alt="" src={el.link} className="w-12 h-10" />
-                  <h4 className="text-md ml-4">{el.name}</h4>
+                  <img alt="" src={el.link} className="w-10 h-8 md:w-12 md:h-10" />
+                  <h4 className="text-sm md:text-md ml-2 md:ml-4">{el.name}</h4>
                 </div>
               </motion.div>
             ))}

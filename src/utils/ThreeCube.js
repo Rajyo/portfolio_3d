@@ -20,6 +20,14 @@ const ThreeCube = () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
   cubeRef.current.appendChild(renderer.domElement);
   camera.position.setZ(30);
+
+  window.addEventListener('resize', onWindowResize, false)
+  function onWindowResize(){
+    camera.aspect = window.innerWidth/window.innerHeight
+    camera.updateProjectionMatrix()
+    renderer.setSize(window.innerWidth, window.innerHeight)
+    render()
+  }
   
   const moonTexture = new THREE.TextureLoader().load(`${moon1}`);
   const normalTexture = new THREE.TextureLoader().load(`${normal}`);
@@ -32,7 +40,7 @@ const ThreeCube = () => {
       lightMapIntensity: 0.75
     }),
   )
-  torus.position.set(10,0,0)
+  torus.position.set(8,0,0)
   scene.add(torus);
   
   const pointLight = new THREE.PointLight(0xffffff);
@@ -56,17 +64,20 @@ const ThreeCube = () => {
     torus.rotation.y += 0.005;
     torus.rotation.z += 0.01;
     controls.update();
+    render();
+  }
+  function render(){
     renderer.render(scene, camera);
   }
+
   animate();
- });
+});
  
  return (
   <>
     <div
       className="three"
       ref={cubeRef}
-      style={{position:"absolute"}}
     ></div>
   </>
 );

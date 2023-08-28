@@ -10,8 +10,8 @@ const Home = () => {
 
   return (
     <div id="home" >
-      {darkMode ? <Light /> : <Dark />}
       <Banner />
+      {darkMode ? <Light /> : <Dark />}
     </div>
   )
 }

@@ -15,7 +15,7 @@ const Card = ({ proj }) => {
 
         <div className="head" style={{ display: "flex" }}>
 
-          <div className="image" style={{ width: "5rem", justifySelf: "flex-start", padding: "0.65rem", border:"1px solid grey",}}>
+          <div className="image" style={{ width: "5rem", justifySelf: "flex-start", padding: "0.65rem",}}>
             <img src={proj.image} alt="title" />
           </div>
 
