@@ -2,6 +2,11 @@ import nmims from "../assets/nmims.jpg"
 import gcoec from "../assets/gcoec.png"
 import chaitanya from "../assets/chaitanya.jpg"
 import bms from "../assets/bms.jpg"
+import portfolio from "../assets/portfolio.jpg"
+import ustore from "../assets/ustore.png"
+import ublog from "../assets/ublog.png"
+import uapp from "../assets/uapp.png"
+
 
 import github from "../assets/github-icon.svg"
 import linkedin from "../assets/linkedin-icon.svg";
@@ -219,31 +224,31 @@ export const contactLinks = [
 
 export const project = [
   {
-    image: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/nodejs.svg",
+    image: portfolio,
     title: "Portfolio",
-    repo: "https://github.com/Rajyo/",
-    demo: null,
-    tags: ["ReactJs", "Tailwind CSS", "Email JS", "Three JS", "Framer Motion",],
-    info: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework.", " Used Axios to integrate the Fake Store API and used Redux Toolkit for global state management.", " Implemented DRF’s Custom User Model, created RESTful API endpoints using DRF to handle requests, used PostgreSQL in production for data storage and retrieval and used JWT for user authentication and authorization", " Used Reactstrap’s easy-to-use component to make visually appealing webpages, integrated Stripe to enable secure, seamless payment processing and used React Toastify for displaying notifications for successful actions", " Deployed React JS Frontend on Vercel, Django Rest Framework backend and PostgreSQL Database on Railway"],
+    repo: "https://github.com/Rajyo/portfolio_3d",
+    demo: "https://portfolio-3d-qfcs.vercel.app/",
+    tags: ["ReactJs", "Tailwind CSS", "Three JS", "Framer Motion", "Context API", "React Three", "Email JS", " React Typical", "Vercel"],
+    info: ["Developed a responsive portfolio web application from scratch using React JS and Tailwind CSS.", "Used Three JS to implement custom 3D models and used React Three to implement pre-build models in the project.", "Used Framer motion for animation and created custom animations from scratch.", "Used Context API for global state management and integrated Email JS to contact the developer.", "Integrated React Typical and React vertical timeline component for a better UI experience.", "Deployed the project on Vercel."],
   },
   {
-    image: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/nodejs.svg",
+    image: ustore,
     title: "Unicorn Store",
     repo: "https://github.com/Rajyo/deploy_ecomm_frontend",
     demo: "https://deploy-ecomm-frontend.vercel.app/",
-    tags: ["ReactJs", "DRF", "Redux Toolkit", "Stripe", "Reactstrap", "Axios", "JWT"],
+    tags: ["ReactJs", "DRF", "Redux Toolkit", "Stripe", "Reactstrap", "Axios", "JWT", "PostgreSQL", "React Toastify", "Vercel", "Railway"],
     info: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework.", " Used Axios to integrate the Fake Store API and used Redux Toolkit for global state management.", " Implemented DRF’s Custom User Model, created RESTful API endpoints using DRF to handle requests, used PostgreSQL in production for data storage and retrieval and used JWT for user authentication and authorization", " Used Reactstrap’s easy-to-use component to make visually appealing webpages, integrated Stripe to enable secure, seamless payment processing and used React Toastify for displaying notifications for successful actions", " Deployed React JS Frontend on Vercel, Django Rest Framework backend and PostgreSQL Database on Railway"],
   },
   {
-    image: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/nodejs.svg",
+    image: uapp,
     title: "Unicorn App",
     repo: "https://github.com/Rajyo/Unicorn-App",
     demo: null,
-    tags: ["Vite", "DRF", "Django Channels", "Redux Toolkit", "Fetch API", "Material UI"],
+    tags: ["Vite", "DRF", "Django Channels", "Redux Toolkit", "Fetch API", "Material UI", "Redis", "SASS/SCSS"],
     info: [" Developed a combined OTT Platform and Chat App web application using Vite and Django Channels, enabling users to utilize the core functionality of the popular streaming platform and have an interactive chat experience", " Used Fetch to make API requests to the TMDB API and implement DRF’s build-in Token Authentication", " Implement a chat interface using Django Channels including message handling, broadcasting, CRUD operations and used SQLite as the database and implemented Redis as a storage layer for channel names and group names", " Used SCSS to apply custom styling and utilized Material UI for pre-built UI components and responsive design."],
   },
   {
-    image: "https://raw.githubusercontent.com/get-icon/geticon/fc0f660daee147afb4a56c64e12bde6486b73e39/icons/nodejs.svg",
+    image: ublog,
     title: "Unicorn Blog",
     repo: "https://github.com/Rajyo/Unicorn-Blog",
     demo: null,

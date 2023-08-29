@@ -3,9 +3,9 @@ import * as THREE from "three";
 import "../index.css";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import moon1 from "../assets/pexels-pixabay-87611.jpg";
-import normal from "../assets/normal.jpg";
-import space2 from "../assets/yellow_wave_abstract-1280x800.jpg";
 import moon2 from "../assets/315347.jpg";
+import space2 from "../assets/yellow_wave_abstract-1280x800.jpg";
+//import space2 from "../assets/pexels-snapwire-37728.jpg";
 
 
 const ThreeCube1 = () => {

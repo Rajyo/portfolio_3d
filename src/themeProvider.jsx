@@ -5,11 +5,10 @@ const toggle1 = localStorage.getItem('toggle')
 if(toggle1 === null){
   localStorage.setItem('toggle', JSON.stringify(true))
 }
-const toggle2 = localStorage.getItem('toggle')
-var darkmode = toggle2.match('true')
+const toggle2 = JSON.parse(localStorage.getItem('toggle'))
 
 
-const initialState = { darkMode: darkmode };
+const initialState = { darkMode: toggle2 };
 
 const themeReducer = (state, action) => {
   switch (action.type) {

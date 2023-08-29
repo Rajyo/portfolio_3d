@@ -5,8 +5,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import moon2 from "../assets/moon2.png";
 import moon1 from "../assets/moon.jpg";
 import normal from "../assets/normal.jpg";
-import normal1 from "../assets/1pexels-adrien-olichon-2538107.jpg";
 import normal3 from "../assets/R.jpg";
+import normal4 from "../assets/pexels-frank-cone-3607542.jpg";
 
 
 const ThreeCube = () => {

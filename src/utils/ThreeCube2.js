@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import * as THREE from "three";
 import "../index.css";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import moon1 from "../assets/pexels-pixabay-87611.jpg";
 
 
 const ThreeCube2 = () => {

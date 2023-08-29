@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import Typical from "react-typical";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import '../index.css';
 
 
