@@ -8,10 +8,10 @@ import { ThemeContext } from "../themeProvider";
 const EducationCard = ({ education }) => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
-    const bg = darkMode ? "#e9939366" : "#8c845f"
-    const cl = darkMode ? "black" : "white"
-    const clr = darkMode ? "grey" : "#212121eb"
-    const bRight = darkMode ? "0.5rem solid #e9939366" : "0.5rem solid #8c845f"
+    const bg = darkMode ? "#7e8f4e" : "#8c845f"
+    const cl = darkMode ? "#fff6dc" : "white"
+    const clr = darkMode ? "#212121eb" : "#212121eb"
+    const bRight = darkMode ? "0.5rem solid #7e8f4e" : "0.5rem solid #8c845f"
     return (
         <VerticalTimelineElement
             contentStyle={{
@@ -63,7 +63,7 @@ const EducationCard = ({ education }) => {
 const Education = () => {
     const theme = useContext(ThemeContext);
     const darkMode = theme.state.darkMode;
-    const bg = darkMode ? "#ffe0e5" : "#4a4632"
+    const bg = darkMode ? "#ffe28f" : "#4a4632"
     const cl = darkMode ? "black" : "white"
     return (
         <>

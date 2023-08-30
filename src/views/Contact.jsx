@@ -10,8 +10,8 @@ import { slideIn } from "../utils/motion.js";
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  const bg = darkMode ? "#ffe0e5" : "#4a4632"
-  const innerbg = darkMode ? "#e9939366" : "#8c845f"
+  const bg = darkMode ? "#ffe28f" : "#4a4632"
+  const innerbg = darkMode ? "#92b263" : "#8c845f"
   const cl = darkMode ? "black" : "white"
 
   const {

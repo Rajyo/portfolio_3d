@@ -8,7 +8,7 @@ import { ThemeContext } from "../themeProvider";
 const Card = ({ proj }) => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  const bg = darkMode ? "#e9939366" : "#8c845f"
+  const bg = darkMode ? "#92b263" : "#8c845f"
   return (
     <>
       <div className="main" style={{ backgroundColor: bg, display: "flex", flexDirection: "column", padding: "1rem", margin: "1rem 3rem 2rem 3rem", border: "1px solid whitesmoke", width: "80%", borderRadius:"1rem" }}>

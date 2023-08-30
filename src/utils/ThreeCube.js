@@ -15,7 +15,7 @@ const ThreeCube = () => {
  useEffect(() => {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.1, 1000);
-  const renderer = new THREE.WebGLRenderer();
+  const renderer = new THREE.WebGLRenderer({ alpha: true });
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   cubeRef.current.appendChild(renderer.domElement);
@@ -53,9 +53,6 @@ const ThreeCube = () => {
   controls.dampingFactor = 0.05 
   controls.enableZoom = true
   controls.enabled = true
-
-  const spaceTexture = new THREE.TextureLoader().load(`${normal3}`);
-  scene.background = spaceTexture;
   
   
   function animate() {
@@ -76,7 +73,7 @@ const ThreeCube = () => {
  return (
   <>
     <div
-      className="three"
+      className="three relative"
       ref={cubeRef}
     ></div>
   </>

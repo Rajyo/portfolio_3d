@@ -7,7 +7,7 @@ import Card from "../components/Card"
 const Projects = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  const bg = darkMode ? "#ffe0e5" : "#4a4632"
+  const bg = darkMode ? "#ffe28f" : "#4a4632"
   const cl = darkMode ? "black" : "white"
 
   return (

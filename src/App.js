@@ -27,7 +27,6 @@ function App() {
             <Education />
             <Projects />
             <Contact />
-      
           </div>
 
         ) : (

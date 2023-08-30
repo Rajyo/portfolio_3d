@@ -8,7 +8,7 @@ const Navbar = () => {
   const theme = useContext(ThemeContext);
   const [toggle, setToggle] = useState(false);
   const darkMode = theme.state.darkMode;
-  const bg = darkMode ? "#8ac78f" : "black"
+  const bg = darkMode ? "#9ec78a" : "#2d2c2c"
   const links = [
     {
       name: "Home",
@@ -77,7 +77,7 @@ const Navbar = () => {
                     smooth={true}
                     className={
                       darkMode
-                        ? "block py-2 px-3 text-black hover:bg-green-500 hover:text-white rounded-md"
+                        ? "block py-2 px-3 text-black hover:bg-green-600 hover:text-white rounded-md"
                         : "block py-2 px-3 text-white hover:bg-green-100 hover:text-black rounded-md"
                     }
                   >
@@ -150,7 +150,7 @@ const Navbar = () => {
                   to={el.route}
                   className={
                     darkMode
-                      ? "hover:bg-green-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
+                      ? "hover:bg-green-600 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"
                       : "hover:bg-green-100 text-white block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-black"
                   }
                   spy={true}

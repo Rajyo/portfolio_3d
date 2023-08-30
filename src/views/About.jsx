@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  // const bg = darkMode ? "#fde8b2" : "#4a4632"
-  const bg = darkMode ? "#ffe0e5" : "#4a4632"
+  const bg = darkMode ? "#ffe28f" : "#4a4632"
+  // const bg = darkMode ? "#ffe0e5" : "#4a4632"
 
 
   return (
