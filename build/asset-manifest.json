@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d30e9672.css",
-    "main.js": "/static/js/main.d4c198b1.js",
+    "main.css": "/static/css/main.cb111bba.css",
+    "main.js": "/static/js/main.6f513e99.js",
     "static/js/915.7a8c199c.chunk.js": "/static/js/915.7a8c199c.chunk.js",
     "static/media/portfolio.jpg": "/static/media/portfolio.d92756e651767969215d.jpg",
     "static/media/black.jpg": "/static/media/black.c44ed04c57064dd1b4d5.jpg",
@@ -13,7 +13,6 @@
     "static/media/moon2.png": "/static/media/moon2.68a8fc1d0b612ecf7f49.png",
     "static/media/315347.jpg": "/static/media/315347.a0eea06d704f8fd01df1.jpg",
     "static/media/moon.jpg": "/static/media/moon.a2edaf8548e78714814b.jpg",
-    "static/media/loading-7528.gif": "/static/media/loading-7528.4bc548a6a675ad28210b.gif",
     "static/media/ublog.png": "/static/media/ublog.358d12fc1c78a21e1fe9.png",
     "static/media/uapp.png": "/static/media/uapp.e15bd4c8f1d8c6afd5ee.png",
     "static/media/yellow_wave_abstract-1280x800.jpg": "/static/media/yellow_wave_abstract-1280x800.8c08b0e407b0e751fa47.jpg",
@@ -62,12 +61,12 @@
     "static/media/material-ui.svg": "/static/media/material-ui.29d71b029152a33c2696d4b945479656.svg",
     "static/media/npm.svg": "/static/media/npm.bf4e43f09d9ca32c3a9d5a19fd3be75f.svg",
     "static/media/vercel.svg": "/static/media/vercel.b2380b2e46924dd7d4c233c653763a84.svg",
-    "main.d30e9672.css.map": "/static/css/main.d30e9672.css.map",
-    "main.d4c198b1.js.map": "/static/js/main.d4c198b1.js.map",
+    "main.cb111bba.css.map": "/static/css/main.cb111bba.css.map",
+    "main.6f513e99.js.map": "/static/js/main.6f513e99.js.map",
     "915.7a8c199c.chunk.js.map": "/static/js/915.7a8c199c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d30e9672.css",
-    "static/js/main.d4c198b1.js"
+    "static/css/main.cb111bba.css",
+    "static/js/main.6f513e99.js"
   ]
 }
