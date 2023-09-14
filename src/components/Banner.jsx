@@ -41,7 +41,7 @@ const Banner = () => {
                 </div>
 
               </h1>
-              <div className="mt-10 sm:mt-8 sm:flex sm:justify-center cursor-pointer w-18 px-6 py-2 text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-2 md:text-lg sm:ml-20 md:ml-38 lg:ml-0" style={{position:"absolute"}}>
+              <div className="mt-10 sm:mt-8 sm:flex sm:justify-center cursor-pointer w-18 px-6 py-2 text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 hover:text-black md:py-2 md:text-lg sm:ml-20 md:ml-38 lg:ml-0" style={{position:"absolute"}}>
                     <a href="https://tinyurl.com/resume1926" target="_blank" rel="noreferrer">Resume</a>
                 </div>
               </div>
