@@ -240,11 +240,19 @@ export const project = [
     info: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework.", " Used Axios to integrate the Fake Store API and used Redux Toolkit for global state management.", " Implemented DRF’s Custom User Model, created RESTful API endpoints using DRF to handle requests, used PostgreSQL in production for data storage and retrieval and used JWT for user authentication and authorization", " Used Reactstrap’s easy-to-use component to make visually appealing webpages, integrated Stripe to enable secure, seamless payment processing and used React Toastify for displaying notifications for successful actions", " Deployed React JS Frontend on Vercel, Django Rest Framework backend and PostgreSQL Database on Railway"],
   },
   {
+    image: ublog,
+    title: "MERN Unicorn Blog",
+    repo: "https://github.com/Rajyo/deploy_ecomm_frontend",
+    demo: "https://deploy-ecomm-frontend.vercel.app/",
+    tags: ["ReactJs", "NodeJS", "ExpressJS", "Axios", "EmailJS", "JWT", "Cloudinary"],
+    info: ["Developed a responsive blogging web application using ReactJS , NodeJS, ExpressJS enabling users to create, read, update and delete blog posts and used Cloudinary for storing images on the cloud.", "Used MongoDB for data storage and retrieval, and used JWT for user authentication, authorization.", "Integrated React Toastify for displaying notifications and integrated EmailJS to send email to developer.", "Deployed ReactJS Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
+  },
+  {
     image: uapp,
     title: "Unicorn App",
-    repo: "https://github.com/Rajyo/Unicorn-App",
-    demo: null,
-    tags: ["Vite", "DRF", "Django Channels", "Redux Toolkit", "Fetch API", "Material UI", "Redis", "SASS/SCSS"],
+    repo: "https://github.com/Rajyo/MERN-Blog-App",
+    demo: "https://deploy-blog-frontned.vercel.app/",
+    tags: ["Vite", "DRF", "Django Channels", "Redux Toolkit", "Fetch API", "Material UI"],
     info: [" Developed a combined OTT Platform and Chat App web application using Vite and Django Channels, enabling users to utilize the core functionality of the popular streaming platform and have an interactive chat experience", " Used Fetch to make API requests to the TMDB API and implement DRF’s build-in Token Authentication", " Implement a chat interface using Django Channels including message handling, broadcasting, CRUD operations and used SQLite as the database and implemented Redis as a storage layer for channel names and group names", " Used SCSS to apply custom styling and utilized Material UI for pre-built UI components and responsive design."],
   },
   {
