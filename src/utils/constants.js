@@ -242,8 +242,8 @@ export const project = [
   {
     image: ublog,
     title: "MERN Unicorn Blog",
-    repo: "https://github.com/Rajyo/deploy_ecomm_frontend",
-    demo: "https://deploy-ecomm-frontend.vercel.app/",
+    repo: "https://github.com/Rajyo/MERN-Blog-App",
+    demo: "https://deploy-blog-frontned.vercel.app/",
     tags: ["ReactJs", "NodeJS", "ExpressJS", "Axios", "EmailJS", "JWT", "Cloudinary"],
     info: ["Developed a responsive blogging web application using ReactJS , NodeJS, ExpressJS enabling users to create, read, update and delete blog posts and used Cloudinary for storing images on the cloud.", "Used MongoDB for data storage and retrieval, and used JWT for user authentication, authorization.", "Integrated React Toastify for displaying notifications and integrated EmailJS to send email to developer.", "Deployed ReactJS Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
   },
