@@ -6,6 +6,7 @@ import portfolio from "../assets/portfolio.jpg"
 import ustore from "../assets/ustore.png"
 import ublog from "../assets/ublog.png"
 import uapp from "../assets/uapp.png"
+import mernhotel from "../assets/MERN.png"
 
 
 import github from "../assets/github-icon.svg"
@@ -237,7 +238,7 @@ export const project = [
     repo: "https://github.com/Rajyo/MERN_HOTEL_CLIENT",
     demo: "https://mern-hotel-client.vercel.app/",
     tags: ["ReactJs", "NodeJS", "ExpressJS", "Stripe", "Tailwind CSS","Axios", "EmailJS", "JWT"],
-    info: [" Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", " Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", " Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
+    info: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", "Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", "Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
   },
   {
     image: ublog,

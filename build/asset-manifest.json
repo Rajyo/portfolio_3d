@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.cb111bba.css",
-    "main.js": "/static/js/main.bd8feb27.js",
+    "main.js": "/static/js/main.04f927d5.js",
     "static/js/915.7a8c199c.chunk.js": "/static/js/915.7a8c199c.chunk.js",
     "static/media/portfolio.jpg": "/static/media/portfolio.d92756e651767969215d.jpg",
     "static/media/black.jpg": "/static/media/black.c44ed04c57064dd1b4d5.jpg",
     "static/media/pexels-frank-cone-3607542.jpg": "/static/media/pexels-frank-cone-3607542.9b9d2d5ce9274803bd97.jpg",
+    "static/media/MERN.png": "/static/media/MERN.c9f5a2dc72844fbe452f.png",
     "static/media/normal.jpg": "/static/media/normal.573c0a93c594c41b13ab.jpg",
     "static/media/pexels-pixabay-87611.jpg": "/static/media/pexels-pixabay-87611.3da152027de188763ef2.jpg",
     "static/media/R.jpg": "/static/media/R.469e83b0032403d54ac5.jpg",
@@ -62,11 +63,11 @@
     "static/media/npm.svg": "/static/media/npm.bf4e43f09d9ca32c3a9d5a19fd3be75f.svg",
     "static/media/vercel.svg": "/static/media/vercel.b2380b2e46924dd7d4c233c653763a84.svg",
     "main.cb111bba.css.map": "/static/css/main.cb111bba.css.map",
-    "main.bd8feb27.js.map": "/static/js/main.bd8feb27.js.map",
+    "main.04f927d5.js.map": "/static/js/main.04f927d5.js.map",
     "915.7a8c199c.chunk.js.map": "/static/js/915.7a8c199c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb111bba.css",
-    "static/js/main.bd8feb27.js"
+    "static/js/main.04f927d5.js"
   ]
 }
