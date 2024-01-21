@@ -50,7 +50,7 @@ const Contact = () => {
       <div className={`xl:mt-6 grid md:grid-cols-2 overflow-hidden`} >
          <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="max-w-[95%] m-auto sm:m-0 md:h-[500px] h-[350px] lg:h-[650px] xl:w-[400px]"
+          className="max-w-[95%] m-auto sm:m-0 md:h-[500px] h-[350px] lg:h-[650px]"
         >
           <EarthCanvas />
         </motion.div>

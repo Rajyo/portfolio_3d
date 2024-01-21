@@ -20,7 +20,7 @@ const Projects = () => {
         <h2 className="text-4xl sm:text-5xl font-bold text-center">
           Projects
         </h2>
-        <motion.div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:gap-10 lg:gap-16 md:grid-cols-2 max-w-[95%] m-auto">
+        <motion.div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:gap-10 lg:gap-16 md:grid-cols-2 max-w-[90%] lg:max-w-[85%] m-auto">
           {project.map((proj) => (
             <Card proj={proj} />
           ))}
