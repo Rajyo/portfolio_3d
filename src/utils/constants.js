@@ -230,7 +230,8 @@ export const project = [
     repo: "https://github.com/Rajyo/portfolio_3d",
     demo: "https://portfolio-3d-qfcs.vercel.app/",
     tags: ["ReactJs", "Tailwind CSS", "Three JS", "Framer Motion", "Context API", "React Three", "Email JS", " React Typical", "Vercel"],
-    info: ["Developed a responsive portfolio web application from scratch using React JS and Tailwind CSS.", "Used Three JS to implement custom 3D models and used React Three to implement pre-build models in the project.", "Used Framer motion for animation and created custom animations from scratch.", "Used Context API for global state management and integrated Email JS to contact the developer.", "Integrated React Typical and React vertical timeline component for a better UI experience.", "Deployed the project on Vercel."],
+    info: ["Developed a responsive portfolio web application from scratch using React JS and Tailwind CSS.", "Used Three JS to implement custom 3D models and used React Three to implement pre-build models in the project.", "Used Framer motion for animation and created custom animations from scratch and integrated React Typical.", "Used Context API for global state management, integrated React vertical timeline and Email JS to contact the developer.", "Deployed the project on Vercel."],
+    mininfo: ["Developed a responsive portfolio web application from scratch using React JS and Tailwind CSS and used Three JS to implement custom 3D models and used React Three to implement pre-build models in the project.",],
   },
   {
     image: mernhotel,
@@ -239,6 +240,7 @@ export const project = [
     demo: "https://mern-hotel-client.vercel.app/",
     tags: ["ReactJs", "NodeJS", "ExpressJS", "Stripe", "Tailwind CSS","Axios", "EmailJS", "JWT"],
     info: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", "Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", "Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
+    mininfo: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, integrated Stripe for booking hotels and MongoDB as a database.",],
   },
   {
     image: ublog,
@@ -247,6 +249,7 @@ export const project = [
     demo: "https://deploy-blog-frontned.vercel.app/",
     tags: ["ReactJs", "NodeJS", "ExpressJS", "Axios", "EmailJS", "JWT", "Cloudinary"],
     info: ["Developed a responsive blogging web application using ReactJS , NodeJS, ExpressJS enabling users to create, read, update and delete blog posts and used Cloudinary for storing images on the cloud.", "Used MongoDB for data storage and retrieval, and used JWT for user authentication, authorization.", "Integrated React Toastify for displaying notifications and integrated EmailJS to send email to developer.", "Deployed ReactJS Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
+    mininfo: ["Developed a responsive blogging web application using ReactJS , NodeJS, ExpressJS enabling users to create, read, update and delete blog posts and used Cloudinary for storing images on the cloud and MongoDB as database",],
   },
   {
     image: ustore,
@@ -254,7 +257,8 @@ export const project = [
     repo: "https://github.com/Rajyo/deploy_ecomm_frontend",
     demo: "https://deploy-ecomm-frontend.vercel.app/",
     tags: ["ReactJs", "DRF", "Redux Toolkit", "Stripe", "Reactstrap", "Axios", "JWT", "PostgreSQL", "React Toastify", "Vercel", "Railway"],
-    info: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework.", " Used Axios to integrate the Fake Store API and used Redux Toolkit for global state management.", " Implemented DRF’s Custom User Model, created RESTful API endpoints using DRF to handle requests, used PostgreSQL in production for data storage and retrieval and used JWT for user authentication and authorization", " Used Reactstrap’s easy-to-use component to make visually appealing webpages, integrated Stripe to enable secure, seamless payment processing and used React Toastify for displaying notifications for successful actions", " Deployed React JS Frontend on Vercel, Django Rest Framework backend and PostgreSQL Database on Railway"],
+    info: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework.", " Used Axios to integrate the Fake Store API, Redux Toolkit for global state management and Stripe for payment integration", " Used PostgreSQL in production for data storage and retrieval and used JWT for user authentication and authorization", " Used Reactstrap’s easy-to-use component and used React Toastify for displaying notifications for successful actions", " Deployed React JS Frontend on Vercel, Django Rest Framework backend and PostgreSQL Database on Railway"],
+    mininfo: [" Developed a user-friendly, secure e-commerce web application using React JS and Django Rest Framework and used Redux Toolkit for global state management, Stripe for payment integration and PostgreSQL as database",],
   },
   {
     image: uapp,
@@ -263,6 +267,7 @@ export const project = [
     demo: null,
     tags: ["Vite", "DRF", "Django Channels", "Redux Toolkit", "Fetch API", "Material UI"],
     info: [" Developed a combined OTT Platform and Chat App web application using Vite and Django Channels, enabling users to utilize the core functionality of the popular streaming platform and have an interactive chat experience", " Used Fetch to make API requests to the TMDB API and implement DRF’s build-in Token Authentication", " Implement a chat interface using Django Channels including message handling, broadcasting, CRUD operations and used SQLite as the database and implemented Redis as a storage layer for channel names and group names", " Used SCSS to apply custom styling and utilized Material UI for pre-built UI components and responsive design."],
+    mininfo: [" Developed a combined OTT Platform and Chat App web application using Vite and Django Channels, enabling users to utilize the core functionality of the popular streaming platform and have an interactive chat experience",],
   },
   {
     image: ublog,
@@ -271,5 +276,6 @@ export const project = [
     demo: "https://deploy-blog-frontned.vercel.app/",
     tags: ["ReactJs", "DRF", "Email JS", "Axios", "JWT", " React Toastify"],
     info: [" Developed a responsive blogging web application using React JS and Django Rest Framework, enabling users to create, read, update and delete blog posts", " Implemented DRF’s Custom User Model, created RESTful API endpoints using DRF to handle requests, used PostgreSQL in production for data storage and retrieval, and used JWT for user authentication, authorization", " Use Axios to make API requests to the backend and implement views and serializers to handle CRUD operations.", " Integrated React Toastify for displaying notifications and integrated Email JS to send email notifications."],
+    mininfo: [" Developed a responsive blogging web application using React JS and Django Rest Framework, enabling users to create, read, update and delete blog posts and integrated EmailJS and PostgreSQL as database",],
   },
 ]

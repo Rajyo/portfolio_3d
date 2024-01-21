@@ -12,15 +12,15 @@ const Projects = () => {
 
   return (
     <motion.div
-      className="w-full"
-      id="projects"
-      style={{ margin: "-2.5rem 1rem -4rem 0rem", backgroundColor:bg, color:cl, paddingBottom:"5rem"}}
+      className="w-full py-10"
+      id="projects" 
+      style={{ backgroundColor:bg, color:cl}}
     >
-      <motion.div className="mx-auto sm:px-6 lg:px-8 pt-24 pb-12">
-        <h2 className="text-4xl sm:text-5xl font-bold px-4 md:px-0 text-center">
+      <motion.div className="">
+        <h2 className="text-4xl sm:text-5xl font-bold text-center">
           Projects
         </h2>
-        <motion.div className="mt-10 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:pl-10">
+        <motion.div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:gap-10 lg:gap-16 md:grid-cols-2 max-w-[95%] m-auto">
           {project.map((proj) => (
             <Card proj={proj} />
           ))}

@@ -85,7 +85,7 @@ const ThreeCube1 = () => {
  return (
   <>
     <div
-      className="three relative"
+      className="three sm:relative"
       ref={cubeRef}
     ></div>
   </>

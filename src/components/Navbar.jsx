@@ -3,6 +3,8 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
+import sun from "./sun.png"
+import moon from "./moon.png"
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -89,15 +91,15 @@ const Navbar = () => {
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
                 <img
-                  src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
+                  src={sun}
                   className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
-                  alt=""
+                  alt="sun"
                 />
               ) : (
                 <img
-                  src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
+                  src={moon}
                   className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
-                  alt=""
+                  alt="moon"
                 />
               )}
             </div>
@@ -107,14 +109,14 @@ const Navbar = () => {
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
                 <img
-                  src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
+                  src={sun}
                   className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
-                  alt=""
+                  alt="sun"
                 />
               ) : (
                 <img
-                  src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
-                  alt=""
+                  src={moon}
+                  alt="moon"
                   className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
                 />
               )}
