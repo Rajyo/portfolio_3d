@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ea2a3d5.css",
-    "main.js": "/static/js/main.4a560cf3.js",
+    "main.js": "/static/js/main.4fe333b0.js",
     "static/js/915.7a8c199c.chunk.js": "/static/js/915.7a8c199c.chunk.js",
     "static/media/portfolio.jpg": "/static/media/portfolio.d92756e651767969215d.jpg",
     "static/media/black.jpg": "/static/media/black.c44ed04c57064dd1b4d5.jpg",
@@ -21,9 +21,12 @@
     "static/media/chaitanya.jpg": "/static/media/chaitanya.a99a7324ca64f756b628.jpg",
     "static/media/bms.jpg": "/static/media/bms.d5dfbe8c2f8b20d2e23d.jpg",
     "static/media/jwt.png": "/static/media/jwt.b6a6302bef32c4f00836.png",
+    "static/media/cTool.png": "/static/media/cTool.256e8826c05b41883c5c.png",
     "static/media/gcoec.png": "/static/media/gcoec.1eca61c8399298facfb0.png",
+    "static/media/t3Crud.png": "/static/media/t3Crud.faa71b79feb387fc7d11.png",
     "static/media/flask.svg": "/static/media/flask.fe37deaf98be47b21b275c8d8b99a0d3.svg",
     "static/media/django-rest-framework-drf.png": "/static/media/django-rest-framework-drf.1e3d389c96e5df48dda3.png",
+    "static/media/aArticle.png": "/static/media/aArticle.029e538e357d1daa6003.png",
     "static/media/nodejs.svg": "/static/media/nodejs.393f5639b181faf3546027d734a91723.svg",
     "static/media/django-channels-logo.webp": "/static/media/django-channels-logo.adc2f497a6638e4629dd.webp",
     "static/media/postgresql.svg": "/static/media/postgresql.c02ca5275d7c27f8eb531b83b03bc92f.svg",
@@ -63,11 +66,11 @@
     "static/media/npm.svg": "/static/media/npm.bf4e43f09d9ca32c3a9d5a19fd3be75f.svg",
     "static/media/vercel.svg": "/static/media/vercel.b2380b2e46924dd7d4c233c653763a84.svg",
     "main.7ea2a3d5.css.map": "/static/css/main.7ea2a3d5.css.map",
-    "main.4a560cf3.js.map": "/static/js/main.4a560cf3.js.map",
+    "main.4fe333b0.js.map": "/static/js/main.4fe333b0.js.map",
     "915.7a8c199c.chunk.js.map": "/static/js/915.7a8c199c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea2a3d5.css",
-    "static/js/main.4a560cf3.js"
+    "static/js/main.4fe333b0.js"
   ]
 }
