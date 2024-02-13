@@ -242,7 +242,7 @@ export const project = [
     repo: "https://github.com/Rajyo/MERN_HOTEL_CLIENT",
     demo: "https://mern-hotel-client.vercel.app/",
     tags: ["ReactJs", "NodeJS", "ExpressJS", "Stripe", "Tailwind CSS","Axios", "EmailJS", "JWT"],
-    info: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", "Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", "Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
+    info: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels", "Used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", "Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", "Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
     mininfo: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, integrated Stripe for booking hotels and MongoDB as a database.",],
   },
   {
@@ -260,7 +260,7 @@ export const project = [
     repo: "https://github.com/Rajyo/Angular_Article_Client",
     demo: "https://angular-client-rust.vercel.app/",
     tags: ["Angular", "TypeScript", "ExpressJS", "Tailwind CSS", "GraphQL", "JWT"],
-    info: ["Developed a responsive article posting web application using Angular, GraphQL and ExpressJS enabling users to create, read, update and delete articles and used JWT for user authentication and MongoDB as a database.", "Used GraphQL as a query language for API’s and deployed frontend on Vercel and backend on Render.", "Deployed Angular Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
+    info: ["Developed a responsive article posting web application using Angular, GraphQL and ExpressJS enabling users to create, read, update and delete articles and used JWT for user authentication and MongoDB as a database.", "Used GraphQL as a query language for API’s and a runtime for fulfilling those queries with existing data.", "Deployed Angular Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
     mininfo: ["Developed a responsive CRUD article posting web application using Angular, GraphQL, ExpressJS and used JWT for user authentication, MongoDB as a database and GraphQL as a query language for API’s."
       ],
   },
@@ -281,7 +281,7 @@ export const project = [
     demo: "https://t3-crud-app.vercel.app/",
     tags: ["Next.js", "tRPC", "TypeScript", "Prisma", "Tailwind CSS", "PostgreSQL"],
     info: ["Developed a User CRUD web application with the T3 stack using Next.js, TypeScript and Tailwind CSS.", 
-    "Used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript, PostgreSQL as database enabling users to create, read, update and delete user.", "Deployed the full stck app on Vercel."],
+    "Used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript, PostgreSQL as database enabling to create, read, update and delete user.", "Deployed the full stck app on Vercel."],
     mininfo: ["Developed a User CRUD web application with the T3 stack using Next.js, TypeScript and Tailwind CSS and used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript and PostgreSQL as database."
       ],
   },

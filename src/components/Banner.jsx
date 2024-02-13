@@ -36,7 +36,7 @@ const Banner = () => {
 
             </h1>
             <div className=" mt-10 sm:mt-8 sm:flex sm:justify-center cursor-pointer w-40 px-6 py-2 text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 hover:text-black md:py-2 md:text-xl ml-3 flex justify-center" style={{ position: "absolute" }}>
-              <a href="http://tinyurl.com/PrajyotResume" target="_blank" rel="noreferrer" >Resume</a>
+              <a href="https://drive.google.com/file/d/1zcbqPT8vW6J5HXpyDbGjqtOfmwLI_bGx/view?usp=drive_link" target="_blank" rel="noreferrer" >Resume</a>
             </div>
           </div>
         </main>
