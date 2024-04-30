@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ea2a3d5.css",
-    "main.js": "/static/js/main.8048851e.js",
+    "main.js": "/static/js/main.40fc7934.js",
     "static/js/915.7a8c199c.chunk.js": "/static/js/915.7a8c199c.chunk.js",
     "static/media/portfolio.jpg": "/static/media/portfolio.d92756e651767969215d.jpg",
     "static/media/black.jpg": "/static/media/black.c44ed04c57064dd1b4d5.jpg",
@@ -17,6 +17,7 @@
     "static/media/ublog.png": "/static/media/ublog.358d12fc1c78a21e1fe9.png",
     "static/media/uapp.png": "/static/media/uapp.e15bd4c8f1d8c6afd5ee.png",
     "static/media/yellow_wave_abstract-1280x800.jpg": "/static/media/yellow_wave_abstract-1280x800.8c08b0e407b0e751fa47.jpg",
+    "static/media/pAdop.png": "/static/media/pAdop.ea62cba3af0f6249e5c7.png",
     "static/media/railway.png": "/static/media/railway.84e5635d9de16e67cb52.png",
     "static/media/chaitanya.jpg": "/static/media/chaitanya.a99a7324ca64f756b628.jpg",
     "static/media/bms.jpg": "/static/media/bms.d5dfbe8c2f8b20d2e23d.jpg",
@@ -66,11 +67,11 @@
     "static/media/npm.svg": "/static/media/npm.bf4e43f09d9ca32c3a9d5a19fd3be75f.svg",
     "static/media/vercel.svg": "/static/media/vercel.b2380b2e46924dd7d4c233c653763a84.svg",
     "main.7ea2a3d5.css.map": "/static/css/main.7ea2a3d5.css.map",
-    "main.8048851e.js.map": "/static/js/main.8048851e.js.map",
+    "main.40fc7934.js.map": "/static/js/main.40fc7934.js.map",
     "915.7a8c199c.chunk.js.map": "/static/js/915.7a8c199c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea2a3d5.css",
-    "static/js/main.8048851e.js"
+    "static/js/main.40fc7934.js"
   ]
 }

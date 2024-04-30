@@ -10,125 +10,126 @@ import mernhotel from "../assets/MERN.png"
 import aArticle from "../assets/aArticle.png"
 import cTool from "../assets/cTool.png"
 import t3Crud from "../assets/t3Crud.png"
+import pAdop from "../assets/pAdop.png"
 
 
 import github from "../assets/github-icon.svg"
 import linkedin from "../assets/linkedin-icon.svg";
 
 //Frontend
-import react from "../assets/react.svg";  
-import javascript from "../assets/javascript.svg";  
-import css from "../assets/css-3.svg";  
+import react from "../assets/react.svg";
+import javascript from "../assets/javascript.svg";
+import css from "../assets/css-3.svg";
 import html from "../assets/html-5.svg";
-import redux from "../assets/redux.svg";  
-import vite from "../assets/vite.svg"; 
-import bootstrap from "../assets/bootstrap.svg"; 
-import matrialUI from "../assets/material-ui.svg"; 
-import sass from "../assets/sass.svg"; 
+import redux from "../assets/redux.svg";
+import vite from "../assets/vite.svg";
+import bootstrap from "../assets/bootstrap.svg";
+import matrialUI from "../assets/material-ui.svg";
+import sass from "../assets/sass.svg";
 import tailwindcss from "../assets/tailwindcss-icon.svg";
 
 //Backend
-import django from "../assets/django.svg";  
-import drf from "../assets/django-rest-framework-drf.png"; 
-import python from "../assets/python.svg"; 
-import djChannels from "../assets/django-channels-logo.webp"; 
-import flask from "../assets/flask.svg"; 
-import express from "../assets/express.svg"; 
+import django from "../assets/django.svg";
+import drf from "../assets/django-rest-framework-drf.png";
+import python from "../assets/python.svg";
+import djChannels from "../assets/django-channels-logo.webp";
+import flask from "../assets/flask.svg";
+import express from "../assets/express.svg";
 import node from "../assets/nodejs.svg";
-import java from "../assets/java.svg"; 
-import c from "../assets/c.svg"; 
+import java from "../assets/java.svg";
+import c from "../assets/c.svg";
 import cplus from "../assets/c-plusplus.svg";
 
 //Database
-import mysql from "../assets/mysql.svg"; 
-import postgresql from "../assets/postgresql.svg"; 
-import mongodb from "../assets/mongodb-icon.svg"; 
-import redis from "../assets/redis.svg"; 
+import mysql from "../assets/mysql.svg";
+import postgresql from "../assets/postgresql.svg";
+import mongodb from "../assets/mongodb-icon.svg";
+import redis from "../assets/redis.svg";
 import sqlite from "../assets/sqlite.svg";
 
 //Deployment
-import vercel from "../assets/vercel.svg"; 
-import heroku from "../assets/heroku-icon.svg"; 
-import firebase from "../assets/firebase.svg"; 
+import vercel from "../assets/vercel.svg";
+import heroku from "../assets/heroku-icon.svg";
+import firebase from "../assets/firebase.svg";
 import netlify from "../assets/netlify.svg";
 import railway from "../assets/railway.png";
 
 
 //Tools
-import jwt from "../assets/jwt.png"; 
-import stripe from "../assets/stripe.svg"; 
-import emailjs from "../assets/emailjs.jpg"; 
-import npm from "../assets/npm.svg"; 
+import jwt from "../assets/jwt.png";
+import stripe from "../assets/stripe.svg";
+import emailjs from "../assets/emailjs.jpg";
+import npm from "../assets/npm.svg";
 import docker from "../assets/docker-icon.svg";
-import git from "../assets/git-icon.svg"; 
-import postman from "../assets/postman.svg"; 
-import vscode from "../assets/visual-studio.svg"; 
-import insomnia from "../assets/insomnia.svg";  
+import git from "../assets/git-icon.svg";
+import postman from "../assets/postman.svg";
+import vscode from "../assets/visual-studio.svg";
+import insomnia from "../assets/insomnia.svg";
 
 
 export const frontend = [
-  {name:"React.js", link:react},
-  {name:"JavaScript", link:javascript},
-  {name:"CSS3", link:css},
-  {name:"HTML5", link:html},
-  {name:"Redux", link:redux},
-  {name:"Vite", link:vite},
-  {name:"Bootstrap", link:bootstrap},
-  {name:"Material UI", link:matrialUI},
-  {name:"SASS", link:sass},
-  {name:"Tailwind CSS", link:tailwindcss},
+  { name: "React.js", link: react },
+  { name: "JavaScript", link: javascript },
+  { name: "CSS3", link: css },
+  { name: "HTML5", link: html },
+  { name: "Redux", link: redux },
+  { name: "Vite", link: vite },
+  { name: "Bootstrap", link: bootstrap },
+  { name: "Material UI", link: matrialUI },
+  { name: "SASS", link: sass },
+  { name: "Tailwind CSS", link: tailwindcss },
 
 ]
 
 
 export const backend = [
-  {name:"Django Rest Framework", link:drf},
-  {name:"Django", link:django},
-  {name:"Python", link:python},
-  {name:"Django Channels", link:djChannels},
-  {name:"Node JS", link:node},
-  {name:"Express JS", link:express},
-  {name:"Flask", link:flask},
-  {name:"Java", link:java},
-  {name:"C", link:c},
-  {name:"C++", link:cplus},
+  { name: "Django Rest Framework", link: drf },
+  { name: "Django", link: django },
+  { name: "Python", link: python },
+  { name: "Django Channels", link: djChannels },
+  { name: "Node JS", link: node },
+  { name: "Express JS", link: express },
+  { name: "Flask", link: flask },
+  { name: "Java", link: java },
+  { name: "C", link: c },
+  { name: "C++", link: cplus },
 
 ]
 
 
 export const database = [
-  {name:"MySQL", link:mysql},
-  {name:"PostgreSQL", link:postgresql},
-  {name:"MongoDB", link:mongodb},
-  {name:"Redis", link:redis},
-  {name:"SQLite", link:sqlite},
+  { name: "MySQL", link: mysql },
+  { name: "PostgreSQL", link: postgresql },
+  { name: "MongoDB", link: mongodb },
+  { name: "Redis", link: redis },
+  { name: "SQLite", link: sqlite },
 
 ]
- 
+
 
 export const deployment = [
-  {name:"Vercel", link:vercel},
-  {name:"Railway", link:railway},
-  {name:"Firebase", link:firebase},
-  {name:"Heroku", link:heroku},
-  {name:"Netlify", link:netlify},
+  { name: "Vercel", link: vercel },
+  { name: "Railway", link: railway },
+  { name: "Firebase", link: firebase },
+  { name: "Heroku", link: heroku },
+  { name: "Netlify", link: netlify },
 
 ]
 
 export const tools = [
-  {name:"JWT", link:jwt},
-  {name:"Git", link:git},
-  {name:"Sripe", link:stripe},
-  {name:"Email JS", link:emailjs},
-  {name:"VS Code", link:vscode},
-  {name:"Potman", link:postman},
-  {name:"Insomnia", link:insomnia},
-  {name:"npm", link:npm},
-  {name:"Docker", link:docker}, 
-  {name:"Github", link:github}, 
+  { name: "JWT", link: jwt },
+  { name: "Git", link: git },
+  { name: "Sripe", link: stripe },
+  { name: "Email JS", link: emailjs },
+  { name: "VS Code", link: vscode },
+  { name: "Potman", link: postman },
+  { name: "Insomnia", link: insomnia },
+  { name: "npm", link: npm },
+  { name: "Docker", link: docker },
+  { name: "Github", link: github },
 ]
 
-export const toolsAndTechnologies = [{title:'frontend'},{title:'backend'},{title:'database'},{title:'deployment'},{title:'tools'},];
+export const toolsAndTechnologies = [{ title: 'frontend' }, { title: 'backend' }, { title: 'database' }, { title: 'deployment' }, { title: 'tools' },];
 
 
 export const educations = [
@@ -145,8 +146,8 @@ export const educations = [
   {
     name: "Government College of Engineering, Chandrapur",
     degree: "BE/B.Tech",
-    work:"Full-time",
-    course:"Computer Science Engineering",
+    work: "Full-time",
+    course: "Computer Science Engineering",
     percentage: "75.68%",
     icon: gcoec,
     iconBg: "#787474",
@@ -155,8 +156,8 @@ export const educations = [
   {
     name: "Sri Chaitanya Vidya Niketan, Visakhapatnam",
     degree: "HSC",
-    work:"Full-time",
-    course:"Physics Chemistry Math",
+    work: "Full-time",
+    course: "Physics Chemistry Math",
     percentage: "84.4%",
     icon: chaitanya,
     iconBg: "#787474",
@@ -165,64 +166,64 @@ export const educations = [
   {
     name: "Bhonsala Military School, Nagpur",
     degree: "SSC",
-    work:"Full-time",
-    course:"General",
+    work: "Full-time",
+    course: "General",
     percentage: "89.2%",
     icon: bms,
     iconBg: "#787474",
     date: "2012 - 2015",
-  },  
+  },
 ];
 
 
 
 export const techStack = [
-  {name:"React.js", link:react},
-  {name:"JavaScript", link:javascript},
-  {name:"CSS3", link:css},
-  {name:"HTML5", link:html},
-  {name:"Redux", link:redux},
-  {name:"Vite", link:vite},
-  {name:"Bootstrap", link:bootstrap},
-  {name:"Material UI", link:matrialUI},
-  {name:"SASS", link:sass},
-  {name:"Tailwind CSS", link:tailwindcss},
-  {name:"Django Rest Framework", link:drf},
-  {name:"Django", link:django},
-  {name:"Python", link:python},
-  {name:"Django Channels", link:djChannels},
-  {name:"Node JS", link:node},
-  {name:"Express JS", link:express},
-  {name:"Flask", link:flask},
-  {name:"Java", link:java},
-  {name:"C", link:c},
-  {name:"C++", link:cplus},
-  {name:"MySQL", link:mysql},
-  {name:"PostgreSQL", link:postgresql},
-  {name:"MongoDB", link:mongodb},
-  {name:"Redis", link:redis},
-  {name:"SQLite", link:sqlite},
-  {name:"Vercel", link:vercel},
-  {name:"Railway", link:railway},
-  {name:"Firebase", link:firebase},
-  {name:"Heroku", link:heroku},
-  {name:"Netlify", link:netlify},
-  {name:"JWT", link:jwt},
-  {name:"Git", link:git},
-  {name:"Sripe", link:stripe},
-  {name:"Email JS", link:emailjs},
-  {name:"VS Code", link:vscode},
-  {name:"Potman", link:postman},
-  {name:"Insomnia", link:insomnia},
-  {name:"npm", link:npm},
-  {name:"Docker", link:docker}, 
-  {name:"Github", link:github}, 
+  { name: "React.js", link: react },
+  { name: "JavaScript", link: javascript },
+  { name: "CSS3", link: css },
+  { name: "HTML5", link: html },
+  { name: "Redux", link: redux },
+  { name: "Vite", link: vite },
+  { name: "Bootstrap", link: bootstrap },
+  { name: "Material UI", link: matrialUI },
+  { name: "SASS", link: sass },
+  { name: "Tailwind CSS", link: tailwindcss },
+  { name: "Django Rest Framework", link: drf },
+  { name: "Django", link: django },
+  { name: "Python", link: python },
+  { name: "Django Channels", link: djChannels },
+  { name: "Node JS", link: node },
+  { name: "Express JS", link: express },
+  { name: "Flask", link: flask },
+  { name: "Java", link: java },
+  { name: "C", link: c },
+  { name: "C++", link: cplus },
+  { name: "MySQL", link: mysql },
+  { name: "PostgreSQL", link: postgresql },
+  { name: "MongoDB", link: mongodb },
+  { name: "Redis", link: redis },
+  { name: "SQLite", link: sqlite },
+  { name: "Vercel", link: vercel },
+  { name: "Railway", link: railway },
+  { name: "Firebase", link: firebase },
+  { name: "Heroku", link: heroku },
+  { name: "Netlify", link: netlify },
+  { name: "JWT", link: jwt },
+  { name: "Git", link: git },
+  { name: "Sripe", link: stripe },
+  { name: "Email JS", link: emailjs },
+  { name: "VS Code", link: vscode },
+  { name: "Potman", link: postman },
+  { name: "Insomnia", link: insomnia },
+  { name: "npm", link: npm },
+  { name: "Docker", link: docker },
+  { name: "Github", link: github },
 ]
 
 
 export const contactLinks = [
-  { name: 'Github', url: github, link :'https://github.com/Rajyo'},
-  { name: 'LinkedIn', url: linkedin, link: 'https://in.linkedin.com/in/prajyot-khadse'}
+  { name: 'Github', url: github, link: 'https://github.com/Rajyo' },
+  { name: 'LinkedIn', url: linkedin, link: 'https://in.linkedin.com/in/prajyot-khadse' }
 ]
 
 
@@ -241,9 +242,18 @@ export const project = [
     title: "MERN Hotel Booking App",
     repo: "https://github.com/Rajyo/MERN_HOTEL_CLIENT",
     demo: "https://mern-hotel-client.vercel.app/",
-    tags: ["ReactJs", "NodeJS", "ExpressJS", "Stripe", "Tailwind CSS","Axios", "EmailJS", "JWT"],
+    tags: ["ReactJs", "NodeJS", "ExpressJS", "Stripe", "Tailwind CSS", "Axios", "EmailJS", "JWT"],
     info: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels", "Used Stripe to enable secure, seamless payment processing for booking hotels and MongoDB for data storage and retrieval", "Used JWT for user authentication, authorization and integrated Axios and EmailJS for contact.", "Deployed ReactJS Frontend on Vercel and ExpressJS backend on Render."],
     mininfo: ["Developed a responsive hotel booking web application using ReactJS, Tailwind CSS and ExpressJS enabling users to create, read, update and delete hotels, integrated Stripe for booking hotels and MongoDB as a database.",],
+  },
+  {
+    image: pAdop,
+    title: "Pet Adoption React Native",
+    repo: "https://github.com/Rajyo/Pet_Adoption_React_Native_Frontend",
+    demo: null,
+    tags: ["React Native", "Expo", "TypeScript", "ExpressJS", "Context API", "Tailwind CSS", "Axios", "JWT"],
+    info: ["Developed a responsive pet adoption mobile application using React Native, Expo and ExpressJS enabling users to add a pet to favorites and later choose a pet for adoption and used Expo Router for navigation.", "Used Axios for fetching API’s from the backend and MongoDB as a database for data storage and retrieval.", "Used Async Storage as a local storage and Context API for state management and JWT for user authentication."],
+    mininfo: ["Developed a responsive pet adoption mobile application using React Native, Expo and ExpressJS, used Expo Router for navigation, Async Storage as a local storage, Context API for state management, JWT for authentication and MongoDB as a database"],
   },
   {
     image: ublog,
@@ -262,7 +272,7 @@ export const project = [
     tags: ["Angular", "TypeScript", "ExpressJS", "Tailwind CSS", "GraphQL", "JWT"],
     info: ["Developed a responsive article posting web application using Angular, GraphQL and ExpressJS enabling users to create, read, update and delete articles and used JWT for user authentication and MongoDB as a database.", "Used GraphQL as a query language for API’s and a runtime for fulfilling those queries with existing data.", "Deployed Angular Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
     mininfo: ["Developed a responsive CRUD article posting web application using Angular, GraphQL, ExpressJS and used JWT for user authentication, MongoDB as a database and GraphQL as a query language for API’s."
-      ],
+    ],
   },
   {
     image: cTool,
@@ -272,7 +282,7 @@ export const project = [
     tags: ["Vite", "Socket.IO", "Express", "TypeScript", "Tailwind CSS"],
     info: ["Developed a user-friendly, collaborative web application using ReactJS, ExpressJS and Tailwind CSS.", "Used Socket.IO for enabling users to draw, erase, paint and chat real-time with multiple users.", "Deployed ReactJS Frontend on Vercel, NodeJS and ExpressJS backend on Render."],
     mininfo: ["Developed a user-friendly, collaborative web application using ReactJS, ExpressJS, used Socket.IO for enabling users to draw, erase, paint and chat real-time with multiple users and deployed on Vercel."
-      ],
+    ],
   },
   {
     image: t3Crud,
@@ -280,10 +290,10 @@ export const project = [
     repo: "https://github.com/Rajyo/T3_CRUD_App",
     demo: "https://t3-crud-app.vercel.app/",
     tags: ["Next.js", "tRPC", "TypeScript", "Prisma", "Tailwind CSS", "PostgreSQL"],
-    info: ["Developed a User CRUD web application with the T3 stack using Next.js, TypeScript and Tailwind CSS.", 
-    "Used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript, PostgreSQL as database enabling to create, read, update and delete user.", "Deployed the full stck app on Vercel."],
+    info: ["Developed a User CRUD web application with the T3 stack using Next.js, TypeScript and Tailwind CSS.",
+      "Used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript, PostgreSQL as database enabling to create, read, update and delete user.", "Deployed the full stck app on Vercel."],
     mininfo: ["Developed a User CRUD web application with the T3 stack using Next.js, TypeScript and Tailwind CSS and used tRPC for end-to-end typesafe API’s, Prisma as an ORM for TypeScript and PostgreSQL as database."
-      ],
+    ],
   },
   {
     image: ustore,
